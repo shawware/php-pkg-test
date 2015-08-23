@@ -1,0 +1,22 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"Shawware\\PPT\\" : "src"
+		}
+	},
+	"name" : "shawware/php-pkg-test",
+	"type" : "project",
+	"description" : "A test package for learning about PHP, composer and packagist. It serves no useful purpose.",
+	"license" : "GPL-3.0+",
+	"require" : {
+		"php" : ">=5.4",
+		"psr/log" : "1.0.0",
+		"apix/log" : "1.1.1"
+	},
+	"authors" : [{
+			"name" : "David Shaw",
+			"email" : "david.shaw@shawware.com.au",
+			"homepage" : "http://www.shawware.com.au"
+		}
+	]
+}
